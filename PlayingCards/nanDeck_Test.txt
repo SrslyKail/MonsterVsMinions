@@ -7,7 +7,7 @@ PAGE = 8.5, 11, PORTRAIT
 ;Icons
 HTMLIMAGE=,(E),Enhanced.png,0.25,0.25,P,0,0,0,0,0,100,FontName
 HTMLIMAGE=,(R),Reaction.png,0.25,0.25,P,0,0,0,0,0,100,FontName
-HTMLIMAGE=,(HT),heart.png,0.3,0.3,PB,0,0,0,0,0,100,FontName
+HTMLIMAGE=,(HP),heart.png,0.3,0.3,PB,0,0,0,0,0,100,FontName
 HTMLIMAGE=,(ARM),shield.png,0.3,0.3,PB,0,0,0,0,0,100,FontName
 HTMLIMAGE=,(DMG),sword.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
 
@@ -42,3 +42,6 @@ ENDVISUAL
 ;Uncomment if exporting to TTS
 ;DISPLAY = "tts_cards_Monster.png", 1, 15
 ;DISPLAY = "tts_cards_Minion.png" 16, 25
+;DISPLAY = "tts_cards_Chef.png" 26, 40
+;DISPLAY = "tts_cards_Ghost.png" 41, 55
+;DISPLAY = "tts_cards_Dragon.png" 56, 80
