@@ -10,6 +10,9 @@ HTMLIMAGE=,(R),Reaction.png,0.25,0.25,P,0,0,0,0,0,100,FontName
 HTMLIMAGE=,(HP),heart.png,0.3,0.3,PB,0,0,0,0,0,100,FontName
 HTMLIMAGE=,(ARM),shield.png,0.3,0.3,PB,0,0,0,0,0,100,FontName
 HTMLIMAGE=,(DMG),sword.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(FED),wellfed.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(BRN),burn.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(SPR),spirit.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
 
 VISUAL=S, 10, 10
 ;Background
@@ -42,6 +45,6 @@ ENDVISUAL
 ;Uncomment if exporting to TTS
 ;DISPLAY = "tts_cards_Monster.png", 1, 15
 ;DISPLAY = "tts_cards_Minion.png" 16, 25
-;DISPLAY = "tts_cards_Chef.png" 26, 40
-;DISPLAY = "tts_cards_Ghost.png" 41, 55
-;DISPLAY = "tts_cards_Dragon.png" 56, 80
+DISPLAY = "tts_cards_Chef.png" 26, 40
+DISPLAY = "tts_cards_Ghost.png" 41, 55
+DISPLAY = "tts_cards_Dragon.png" 56, 80
