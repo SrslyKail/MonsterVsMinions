@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Hero’s Sword",
+      "description": 2
+    },
+    {
+      "name": "Hero’s Shield",
+      "description": 8
+    },
+    {
+      "name": "Intercept",
+      "description": 9
+    },
+    {
+      "name": "Spectral Strike",
+      "description": 5
+    },
+    {
+      "name": "Chilling Aura",
+      "description": 10
+    },
+    {
+      "name": "Masterful Parry",
+      "description": 1
+    },
+    {
+      "name": "Behind Me!",
+      "description": 7
+    },
+    {
+      "name": "Undying Willpower",
+      "description": 1
+    },
+    {
+      "name": "Last Stand",
+      "description": 4
+    }
+]

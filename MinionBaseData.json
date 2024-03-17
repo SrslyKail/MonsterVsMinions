@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Quick Attack",
+      "description": 8
+    },
+    {
+      "name": "Standard Attack",
+      "description": 5
+    },
+    {
+      "name": "Heavy Attack",
+      "description": 3
+    },
+    {
+      "name": "Prepare",
+      "description": 10
+    },
+    {
+      "name": "Assist",
+      "description": 1
+    }
+]
