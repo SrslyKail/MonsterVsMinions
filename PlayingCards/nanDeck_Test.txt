@@ -43,8 +43,8 @@ TEXT="1-{(SPEED)}",[SPEED],{1317/667}%,{729/250}%,{13358/667}%,{9971/1000}%
 ENDVISUAL
 
 ;Uncomment if exporting to TTS
-;DISPLAY = "tts_cards_Monster.png", 1, 15
-;DISPLAY = "tts_cards_Minion.png" 16, 25
+DISPLAY = "tts_cards_Monster.png", 1, 15
+DISPLAY = "tts_cards_Minion.png" 16, 25
 DISPLAY = "tts_cards_Chef.png" 26, 40
 DISPLAY = "tts_cards_Ghost.png" 41, 55
 DISPLAY = "tts_cards_Dragon.png" 56, 80
