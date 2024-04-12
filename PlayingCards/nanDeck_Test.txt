@@ -13,6 +13,9 @@ HTMLIMAGE=,(DMG),sword.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
 HTMLIMAGE=,(FED),wellfed.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
 HTMLIMAGE=,(BRN),burn.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
 HTMLIMAGE=,(SPR),spirit.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(GRW),growth.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(FCS),focus.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(RGE),rage.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
 
 VISUAL=S, 10, 10
 ;Background
@@ -20,31 +23,36 @@ IMAGE="1-{(BACKGROUND)}",[BACKGROUND],0%,0%,100%,100%
 ;Card_Image
 IMAGE="1-{(IMAGE)}",[IMAGE],0%,0%,100%,100%,0,N
 ;Banner
-IMAGE="1-{(BANNER)}",[BANNER],0%,{-47/500}%,100%,{99999/1000}%,0,NT
+IMAGE="1-{(BANNER)}",[BANNER],0%,{-61/650}%,100%,{100/1}%,0,NT
 ;HTMLFont(size)
 HTMLFONT=FontName,Arial,8,,#000000,CENTER,0,0,0,,,0,0,,
 ;HTMLText(size)
-HTMLTEXT="1-{(DESCRIPTION)}",[DESCRIPTION],{6585/667}%,{69143/1000}%,80%,20%,#FFFFFF,0,BEFM,100,FontName,FontName
+HTMLTEXT="1-{(DESCRIPTION)}",[DESCRIPTION],{2853/289}%,{89887/1300}%,80%,20%,#FFFFFF,0,BEFM,100,FontName,FontName
 ;HTMLFont(size)
-HTMLFONT=Font2,Arial,8,R,#FFFFFF,CENTER,0.015,0.015,0,#000000,,0.015,0
+HTMLFONT=Font2,Arial,12,BR,#b3b3b3,CENTER,.02,.02,.03,#000000,,0,0
+;HTMLFont(size)
+HTMLFONT=NumberFont,Arial,20,BR,#b3b3b3,CENTER,.02,.02,.03,#000000,,0,0
 ;Font(size)
 FONT=Arial,7,TF,#000000
 ;Description
-TEXT=-1,[DESCRIPTION],{6585/667}%,{34619/500}%,{53341/667}%,{20037/1000}%,CENTER,WORDWRAP
+TEXT=-1,[DESCRIPTION],{2853/289}%,{90009/1300}%,{69335/867}%,{6512/325}%,CENTER,WORDWRAP
 ;Font(size)
 FONT=Arial,13,TFB,#b3b3b3
-;Name(size)
+;[NAME]Name
 ;BEZIER =1,1.5,0,1.5,4.5,4.5,4.5,4.5,9,#0000FF,0.15
-TEXT="1-{(NAME)}",[NAME],{7432/667}%,{10743/200}%,80%,10%,CENTER,CENTER
+;TEXT="1-{(NAME)}",,{7432/667}%,{10743/200}%,80%,10%,CENTER,CENTER(size)
+HTMLTEXT="1-{(NAME)}",[NAME],{12473/867}%,{72821/1300}%,70%,10%,#FFFFFF,0,BEFM,100,Font2,Font2
 ;Font(size)
 FONT=Arial,20,TB,#b3b3b3
 ;Speed
-TEXT="1-{(SPEED)}",[SPEED],{1317/667}%,{729/250}%,{13358/667}%,{9971/1000}%
+HTMLTEXT="1-{(SPEED)}",[SPEED],{1711/867}%,{214/65}%,{5788/289}%,{12963/1300}%,#FFFFFF,0,BEFM,100,NumberFont,NumberFont
 ENDVISUAL
 
 ;Uncomment if exporting to TTS
 DISPLAY = "tts_cards_Monster.png", 1, 15
 DISPLAY = "tts_cards_Minion.png" 16, 25
 DISPLAY = "tts_cards_Chef.png" 26, 40
-DISPLAY = "tts_cards_Ghost.png" 41, 55
-DISPLAY = "tts_cards_Dragon.png" 56, 80
+DISPLAY = "tts_cards_Druid.png" 41, 55
+DISPLAY = "tts_cards_Ghost.png" 56, 70
+DISPLAY = "tts_cards_Berzerker.png" 71, 85
+DISPLAY = "tts_cards_Dragon.png" 86, 110
