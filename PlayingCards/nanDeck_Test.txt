@@ -2,20 +2,23 @@ LINKMULTI = Count
 LINK = "1xIbGrfk4_9tGrDV0eUR08QmkHs72r0UVU4BSTQT0CHU"
 
 ;Settings
+UNIT = INCH
 PAGE = 8.5, 11, PORTRAIT
+BORDER=RECTANGLE,#000000, 0.01
+MARGINS = 0.1, 0.1, 0.1, 0.1
 
 ;Icons
-HTMLIMAGE=,(E),Enhanced.png,0.25,0.25,P,0,0,0,0,0,100,FontName
-HTMLIMAGE=,(R),Reaction.png,0.25,0.25,P,0,0,0,0,0,100,FontName
-HTMLIMAGE=,(HP),heart.png,0.3,0.3,PB,0,0,0,0,0,100,FontName
-HTMLIMAGE=,(ARM),shield.png,0.3,0.3,PB,0,0,0,0,0,100,FontName
-HTMLIMAGE=,(DMG),sword.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
-HTMLIMAGE=,(FED),wellfed.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
-HTMLIMAGE=,(BRN),burn.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
-HTMLIMAGE=,(SPR),spirit.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
-HTMLIMAGE=,(GRW),growth.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
-HTMLIMAGE=,(FCS),focus.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
-HTMLIMAGE=,(RGE),rage.png,0.3,0.3,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(E),Enhanced.png,0.1,0.1,P,0,0,0,0,0,100,FontName
+HTMLIMAGE=,(R),Reaction.png,0.1,0.1,P,0,0,0,0,0,100,FontName
+HTMLIMAGE=,(HP),heart.png,0.12,0.12,PB,0,0,0,0,0,100,FontName
+HTMLIMAGE=,(ARM),shield.png,0.12,0.12,PB,0,0,0,0,0,100,FontName
+HTMLIMAGE=,(DMG),sword.png,0.12,0.12,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(FED),wellfed.png,0.12,0.12,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(BRN),burn.png,0.12,0.12,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(SPR),spirit.png,0.12,0.12,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(GRW),growth.png,0.12,0.12,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(FCS),focus.png,0.12,0.12,PBG,0,0,0,0,0,100,Font2
+HTMLIMAGE=,(RGE),rage.png,0.12,0.12,PBG,0,0,0,0,0,100,Font2
 
 VISUAL=S, 10, 10
 ;Background
@@ -29,9 +32,9 @@ HTMLFONT=FontName,Arial,8,,#000000,CENTER,0,0,0,,,0,0,,
 ;HTMLText(size)
 HTMLTEXT="1-{(DESCRIPTION)}",[DESCRIPTION],{2853/289}%,{89887/1300}%,80%,20%,#FFFFFF,0,BEFM,100,FontName,FontName
 ;HTMLFont(size)
-HTMLFONT=Font2,Arial,12,BR,#b3b3b3,CENTER,.02,.02,.03,#000000,,0,0
+HTMLFONT=Font2,Arial,12,BR,#b3b3b3,CENTER,.008,.008,.012,#000000,,0,0
 ;HTMLFont(size)
-HTMLFONT=NumberFont,Arial,20,BR,#b3b3b3,CENTER,.02,.02,.03,#000000,,0,0
+HTMLFONT=NumberFont,Arial,20,BR,#b3b3b3,CENTER,.008,.008,.012,#000000,,0,0
 ;Font(size)
 FONT=Arial,7,TF,#000000
 ;Description
@@ -49,10 +52,10 @@ HTMLTEXT="1-{(SPEED)}",[SPEED],{1711/867}%,{214/65}%,{5788/289}%,{12963/1300}%,#
 ENDVISUAL
 
 ;Uncomment if exporting to TTS
-DISPLAY = "tts_cards_Monster.png", 1, 15
-DISPLAY = "tts_cards_Minion.png" 16, 25
-DISPLAY = "tts_cards_Chef.png" 26, 40
-DISPLAY = "tts_cards_Druid.png" 41, 55
-DISPLAY = "tts_cards_Ghost.png" 56, 70
-DISPLAY = "tts_cards_Berzerker.png" 71, 85
-DISPLAY = "tts_cards_Dragon.png" 86, 110
+;DISPLAY = "tts_cards_Monster.png", 1, 15
+;DISPLAY = "tts_cards_Minion.png" 16, 25
+;DISPLAY = "tts_cards_Chef.png" 26, 40
+;DISPLAY = "tts_cards_Druid.png" 41, 55
+;DISPLAY = "tts_cards_Ghost.png" 56, 70
+;DISPLAY = "tts_cards_Berzerker.png" 71, 85
+;DISPLAY = "tts_cards_Dragon.png" 86, 110
