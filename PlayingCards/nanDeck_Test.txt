@@ -28,9 +28,9 @@ IMAGE="1-{(IMAGE)}",[IMAGE],0%,0%,100%,100%,0,N
 ;Banner
 IMAGE="1-{(BANNER)}",[BANNER],0%,{-61/650}%,100%,{100/1}%,0,NT
 ;HTMLFont(size)
-HTMLFONT=FontName,Arial,8,,#000000,CENTER,0,0,0,,,0,0,,
+HTMLFONT=FontName,Arial,9,D,#000000,CENTER,0,0,0,,,0,0
 ;HTMLText(size)
-HTMLTEXT="1-{(DESCRIPTION)}",[DESCRIPTION],{2853/289}%,{89887/1300}%,80%,20%,#FFFFFF,0,BEFM,100,FontName,FontName
+HTMLTEXT="1-{(DESCRIPTION)}",[DESCRIPTION],{1579/289}%,{21218/325}%,90%,30%,#FFFFFF,0,BEFM,100,FontName,FontName
 ;HTMLFont(size)
 HTMLFONT=Font2,Arial,12,BR,#b3b3b3,CENTER,.008,.008,.012,#000000,,0,0
 ;HTMLFont(size)
@@ -44,7 +44,7 @@ FONT=Arial,13,TFB,#b3b3b3
 ;[NAME]Name
 ;BEZIER =1,1.5,0,1.5,4.5,4.5,4.5,4.5,9,#0000FF,0.15
 ;TEXT="1-{(NAME)}",,{7432/667}%,{10743/200}%,80%,10%,CENTER,CENTER(size)
-HTMLTEXT="1-{(NAME)}",[NAME],{12473/867}%,{72821/1300}%,70%,10%,#FFFFFF,0,BEFM,100,Font2,Font2
+HTMLTEXT="1-{(NAME)}",[NAME],{12473/867}%,{14553/260}%,70%,10%,#FFFFFF,0,BEFM,100,Font2,Font2
 ;Font(size)
 FONT=Arial,20,TB,#b3b3b3
 ;Speed
@@ -54,7 +54,7 @@ ENDVISUAL
 ;Uncomment if exporting to TTS
 ;DISPLAY = "tts_cards_Monster.png", 1, 15
 ;DISPLAY = "tts_cards_Minion.png" 16, 25
-;DISPLAY = "tts_cards_Chef.png" 26, 40
+DISPLAY = "tts_cards_Chef.png" 26, 40
 ;DISPLAY = "tts_cards_Druid.png" 41, 55
 ;DISPLAY = "tts_cards_Ghost.png" 56, 70
 ;DISPLAY = "tts_cards_Berzerker.png" 71, 85
